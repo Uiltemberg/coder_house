@@ -1,25 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">  
+  <meta charset="UTF-8">
   <title>Contato</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
   <header>
     <img class="logo" src="./img/domduarte.png" alt="logo da loja">
-   
-      <nav class="menu">
-        <a href="index.html">Home</a>
-        <a href="hamburguer.html">Hambúrguer</a>
-        <a href="bebidas.html">Bebidas</a>
-        <a href="contato.html">Contato</a>
-      </nav>
 
-   </header>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="hamburguer.html">Hambúrguer</a>
+      <a href="bebidas.html">Bebidas</a>
+      <a href="contato.html">Contato</a>
+    </nav>
 
-   <footer>
+  </header>
+  <main>
+    <h1>Sugestões</h1>
+    <h3>A sua opinião é importante para nos:</h3>
+    <div>
+      <form>
+        <label for="nome">Seu Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Nome:" required>
+        <br>
+        <br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" placeholder="Telefone:">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="E-mail:" required>
+        <br>
+        <br>
+
+        <label for="mensagem">Sugestões:</label>
+        <textarea name="mensagem" id="mensagem" placeholder="Sugestões:" required></textarea>
+        <br>
+        <br>
+
+        <span>Deseja receber nossas novidades?</span>
+        <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+        <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        <br>
+        <br>
+
+        <button type="submit" name="acao" value="Enviar">Enviar dados</button>
+
+      </form>
+    </div>
+
+  </main>
+
+  <footer>
     <h3>Todos os direitos Reservados</h3>
   </footer>
 </body>
+
 </html>
