@@ -3,42 +3,84 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Site Modelo</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <title>Home</title>
 </head>
 
 <body>
+
   <header>
-    <img class="logo" src="./img/domduarte.png" alt="logo da loja" height="200px" width="200px">
-
-    <nav class="menu">
-        <a href="index.html">Home</a>
-        <a href="hamburguer.html">Hambúrguers</a>
-        <a href="bebidas.html">Bebidas</a>
-        <a href="contato.html">Contato</a>
-      </nav>
-
+    <img class="logo" src="./img/logo.png" alt="logo da loja">
+    <nav>
+      <a class="menu" href="index.html">Home</a>
+      <a class="menu" href="hamburguer.html">Hambúrguers</a>
+      <a class="menu" href="bebidas.html">Bebidas</a>
+      <a class="menu" href="contato.html">Contato</a>
+    </nav>
   </header>
-  <main>
-    <h1>O Melhor Hambúrguer da Região</h1>
-    <img class="banner" src="./img/hamburguer-capa.jpg" alt="banner">
-  </main>
-  <footer>
-    <div class="rodape">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.5162989622913!2d-34.858561099999996!3d-7.9454768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab3df4578041bd%3A0x90cac0243663f36e!2sAv.%20Brasil%2C%201000%20-%20Maranguape%20I%2C%20Paulista%20-%20PE%2C%2053441-601!5e0!3m2!1spt-BR!2sbr!4v1665609615773!5m2!1spt-BR!2sbr"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <address>
-        Sede: <br>
-        Av. Brasil nº 1000 <br>
-        São Paulo - SP
-      </address>
-    </div>
-    <h3>Todos os direitos Reservados</h3>
-  </footer>
 
+  <br>
+  <br>
+  <br>
+  <div>
+    <img  class="banner__topo" src="./img/1banner.png" alt="imagem de alimentos">
+  </div>
+
+  <br>
+
+  <div class="container" align="center">
+    <div class="linha">
+      <div class="coluna-33">
+        <h1 class="fonte2">Nossa História</h1>
+        <p class="p" class="fonte1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. </p>
+      </div>
+      <div class="coluna-33">
+        <h1 class="fonte2">Nosso Tempero</h1>
+        <p class="p" class="fonte1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. </p>
+
+      </div>
+      <div class="coluna-33">
+        <h1 class="fonte2">Nossas Unidades</h1>
+        <p class="p" class="fonte1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. </p>
+
+      </div>
+    </div>
+
+
+    <br><br>
+
+
+    <div align=" center">
+      <img class="banner__rodape" src="./img/2banner.png" alt="imagem de alimentos">
+    </div>
+
+    <br><br><br>
+
+    <div align="center">
+
+      <button class="button">Promoções do DIA</button> <button class="button">+ Descontos no APP</button> <button
+        class="button">Escolha seu CUPOM</button>
+    </div>
+
+    <footer>
+      <h3 class="rodape">Todos os direitos Reservados</h3>
+    </footer>
 
 </body>
+</head>
 
 </html>
