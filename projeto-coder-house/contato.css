@@ -139,5 +139,87 @@ header{
     line-height: 50px;
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
  }
+
+ @media screen and (max-width:596px) {
+
+
+
+   nav{ 
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 5%;
+ 
+ 
+ 
+    }
+ 
+ 
+    .logo{
+ 
+       height: 70px;
+       width: 70px;
+       border-radius: 20px;
+       margin-top: 5%;
+ 
+    }
+ 
+ 
+    .menu {
+ 
+       font-weight: 600;
+       font-size: 13px;
+       line-height: 30px;
+       color: rgb(207, 131, 24);
+       cursor: pointer;
+       padding-left: 20px;
+       margin-right: 5px;
+ 
+ 
+    }
+    
+   .container{
+      width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(247, 154, 2);
+    margin-top: 5%;
+
+   }
+
+   .form{
+      width: 90%;
+      height: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: blanchedalmond;
+      padding: 30px;
+  }
+
+  h1{
+   text-align: center;
+   color: rgb(104, 64, 64);
+   font-weight: 600;
+    font-size: 25px;
+    margin:20px auto 20px;
+
+   }
+
+   .rodape {
+      background: rgb(247, 154, 2);
+      color:rgb(0, 0, 0);
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 30px;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 10px;
+   
+   
+   }
+}
