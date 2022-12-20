@@ -17,25 +17,6 @@
       justify-content: center;
     }
 
-    /* animação gradiente
-    header .container-fluid {
-      padding: 0%; }
-      header .container-fluid .gradient {
-        animation: gradient ease 5s infinite;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        background: linear-gradient(-45deg, #a0b104, #d47853, #d8ac4e, #f3cb18) no-repeat;
-        background-size: 300% 300%; }
-      
-    @keyframes gradient {
-    0% {
-      background-position: 0 50%; }
-    50% {
-      background-position: 100% 50%; }
-    100% {
-      background-position: 0 50%; } }
-      */
     header .logo {
       height: 200px;
       width: 200px;
@@ -115,28 +96,6 @@
       align-items: center;
       justify-content: center;
     }
-
-   /* animação gardiente 
-    header .container-fluid {
-      padding: 0%; }
-      
-      header .container-fluid .gradient {
-        animation: gradient ease 5s infinite;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        background: linear-gradient(-45deg, #a0b104, #d47853, #d8ac4e, #f3cb18) no-repeat;
-        background-size: 300% 300%; }
-    
-
-    @keyframes gradient {
-    0% {
-      background-position: 0 50%; }
-    50% {
-      background-position: 100% 50%; }
-    100% {
-      background-position: 0 50%; } }
-    */
 
     header .logo {
       height: 150px;
