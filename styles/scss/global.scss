@@ -1,5 +1,5 @@
 /*desktop*/
-@media screen and (min-width: 577px) {
+@media screen and (min-width: 596px) {
   * {
     font-family: "Montserrat", sans-serif;
     padding: 0;
@@ -85,7 +85,7 @@
   }
 }
 /*smartfone*/
-@media screen and (max-width: 577px) {
+@media screen and (max-width: 596px) {
   header {
     display: flex;
     align-items: center;
@@ -108,14 +108,16 @@
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    background-color: #f79a02; }
+    }
     .menu-navbar .menu {
       font-weight: 600;
-      font-size: 20px;
-      line-height: 50px;
-      color: white;
-      margin: 20px 0 20px;
-      cursor: pointer; }
+      font-size: 13px;
+      line-height: 30px;
+      color: rgb(207, 131, 24);
+      cursor: pointer;
+      padding-left: 20px;
+      margin-right: 5px;
+      }
     .menu-navbar a:hover {
       color: black; }
   h1 {
