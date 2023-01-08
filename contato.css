@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 header{
     display: flex;
     align-items: center;
@@ -19,14 +18,14 @@ header{
     justify-content: space-around; 
     width: 100%;
     background-color: rgb(247, 154, 2);
-    margin-top: 5%;
+    margin-top: 5px;
  }
  
  .logo{
     height: 200px;
     width: 200px;
     border-radius: 40px;
-    margin-top: 5%;
+    margin-top: 5px;
    
  }
  
@@ -53,7 +52,7 @@ header{
     justify-content: center;
     padding: 50px;
     background-color: rgb(247, 154, 2);
-    margin-top: 5%;
+    margin-top: 5px;
 
 }
 
@@ -151,34 +150,24 @@ header{
     text-align: center;
     width: 100%;
     background-color: transparent;
-    margin-top: 5%;
+    margin-top: 5px; 
+    } 
  
- 
- 
-    }
- 
- 
-    .logo{
- 
+    .logo{ 
        height: 70px;
        width: 70px;
        border-radius: 20px;
-       margin-top: 5%;
- 
+       margin-top: 5px; 
     }
  
- 
-    .menu {
- 
+    .menu { 
        font-weight: 600;
        font-size: 13px;
        line-height: 30px;
        color: rgb(207, 131, 24);
        cursor: pointer;
        padding-left: 20px;
-       margin-right: 5px;
- 
- 
+       margin-right: 5px; 
     }
     
    .container{
@@ -187,7 +176,7 @@ header{
     justify-content: center;
     padding: 50px;
     background-color: rgb(247, 154, 2);
-    margin-top: 5%;
+    margin-top: 5px;
 
    }
 
